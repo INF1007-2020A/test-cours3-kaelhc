@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
-    # TODO completer la fonction
+   for x in chaine_1 :
+    if ord(chaine_1[0])>=97 and ord(chaine_1[0])<=122 :
+        aski=ord(chaine_1[0]) -32
+    elif ord(chaine_1[x])>=65 and ord(chaine_1[x])<=90 :
+        aski2=ord(chaine_1[x])+32
     return nom
 
 
