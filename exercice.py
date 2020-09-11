@@ -4,8 +4,8 @@ def capitaliser_pays(nom):
    for x in nom:
     if ord(nom[0])>=97 and ord(nom[0])<=122 :
         aski=ord(nom[0]) -32
-    elif ord(nom[x])>=65 and ord(chaine_1[x])<=90 :
-        aski2=ord(chaine_1[x])+32
+    elif ord(nom[x])>=65 and ord(nom[x])<=90 :
+        aski2=ord(nom[x])+32
     return nom
 
 
